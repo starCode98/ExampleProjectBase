@@ -1,0 +1,1 @@
+Example of project base with clean arquitecture, mvvm, livedata, viewbinding, coroutines, room, and retrofit2 and dagger2.

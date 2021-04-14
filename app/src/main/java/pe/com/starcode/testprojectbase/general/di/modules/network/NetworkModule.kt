@@ -103,7 +103,6 @@ class NetworkModule {
     @Singleton
     @Provides
     fun provideService(retrofit: Retrofit): ApiService {
-
         return retrofit.create(ApiService::class.java)
     }
 

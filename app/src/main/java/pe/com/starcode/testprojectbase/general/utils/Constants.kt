@@ -12,18 +12,29 @@ object Constants {
         const val PREF_LANGUAGE_SELECTED = "language_selected"
     }
 
-    object ApiError {
-         const val BAD_REQUEST_ERROR_MESSAGE = "Bad Request!"
-         const val FORBIDDEN_ERROR_MESSAGE = "Forbidden!"
-         const val NOT_FOUND_ERROR_MESSAGE = "Not Found!"
-         const val METHOD_NOT_ALLOWED_ERROR_MESSAGE = "Method Not Allowed!"
-         const val CONFLICT_ERROR_MESSAGE = "Conflict!"
-         const val UNAUTHORIZED_ERROR_MESSAGE = "Unauthorized!"
-         const val INTERNAL_SERVER_ERROR_MESSAGE = "Internal Server error!"
-         const val NO_CONNECTION_ERROR_MESSAGE = "No Connection!"
-         const val TIMEOUT_ERROR_MESSAGE = "Time Out!"
-         val UNKNOWN_ERROR_MESSAGE = "Unknown Error!"
+    object DefaultDialogMessage {
+        const val TITLE = "Title"
+        const val BODY: String = "Message"
+        const val IS_CANCELABLE: String = "IsCancelable"
+        const val TEXT_BUTTON_CANCEL: String = "TextButtonCancel"
+        const val TEXT_BUTTON_ACCEPT: String = "TextButtonAccept"
+        const val HAS_TIME_LIMIT: String = "HasTimeLimit"
+        const val TIME:Long = 1200L
     }
+
+    object ApiError {
+        const val BAD_REQUEST_ERROR_MESSAGE = "Bad Request!"
+        const val FORBIDDEN_ERROR_MESSAGE = "Forbidden!"
+        const val NOT_FOUND_ERROR_MESSAGE = "Not Found!"
+        const val METHOD_NOT_ALLOWED_ERROR_MESSAGE = "Method Not Allowed!"
+        const val CONFLICT_ERROR_MESSAGE = "Conflict!"
+        const val UNAUTHORIZED_ERROR_MESSAGE = "Unauthorized!"
+        const val INTERNAL_SERVER_ERROR_MESSAGE = "Internal Server error!"
+        const val NO_CONNECTION_ERROR_MESSAGE = "No Connection!"
+        const val TIMEOUT_ERROR_MESSAGE = "Time Out!"
+        val UNKNOWN_ERROR_MESSAGE = "Unknown Error!"
+    }
+
     enum class ErrorStatus {
         /**
          * Any case where a parameter is invalid, or a required parameter is missing.

@@ -25,7 +25,7 @@ android {
         }
 
         debug {
-            buildConfigField("String", "BASE_URL", "\"urlexample/\"")
+            buildConfigField("String", "BASE_URL", "\"https://606e6f6c0c054f0017656f08.mockapi.io/api/\"")
 
         }
     }
@@ -57,7 +57,9 @@ dependencies {
     implementation "androidx.core:core-ktx:$ktx_version"
     implementation "androidx.activity:activity-ktx:$ktx_activity_version"
     implementation "androidx.fragment:fragment-ktx:$ktx_version"
-
+    //navigation
+    implementation "androidx.navigation:navigation-fragment-ktx:$navigation_version"
+    implementation "androidx.navigation:navigation-ui-ktx:$navigation_version"
     //retrofit
     implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
     implementation "com.squareup.retrofit2:converter-moshi:$moshi_converter_version"

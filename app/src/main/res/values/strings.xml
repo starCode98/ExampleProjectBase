@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TestProjectBase</string>
+    <string name="text_cancel">Cancelar</string>
+    <string name="text_to_accept">Aceptar</string>
 </resources>
